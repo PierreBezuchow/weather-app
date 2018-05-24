@@ -22,7 +22,7 @@ class UI {
     this.humidity.textContent = `Relative Humidity: ${weather.main.humidity}%`;
     this.pressure.textContent = `Pressure: ${weather.main.pressure} hPa`;
     this.wind.textContent = `Wind Speed: ${weather.wind.speed} m/s`;
-    console.log(this.icon);
+    
   }
 
   
